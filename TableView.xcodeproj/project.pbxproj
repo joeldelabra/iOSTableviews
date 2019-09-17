@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D01220923317C5D00C442AE /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01220823317C5D00C442AE /* Alumno.swift */; };
 		3DF78A28232C37EC007FFC6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF78A27232C37EC007FFC6C /* AppDelegate.swift */; };
 		3DF78A2A232C37EC007FFC6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF78A29232C37EC007FFC6C /* ViewController.swift */; };
 		3DF78A2D232C37EC007FFC6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DF78A2B232C37EC007FFC6C /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D01220823317C5D00C442AE /* Alumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
 		3DF78A24232C37EC007FFC6C /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF78A27232C37EC007FFC6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DF78A29232C37EC007FFC6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,9 +78,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D01220323317B3100C442AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3DF78A2E232C37F1007FFC6C /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3D01220423317B3900C442AE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3DF78A27232C37EC007FFC6C /* AppDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		3D01220523317B4900C442AE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3D01220623317B5200C442AE /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3DF78A2B232C37EC007FFC6C /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		3D01220723317BA700C442AE /* Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				3DF78A29232C37EC007FFC6C /* ViewController.swift */,
+				3DF78A55232C3F2E007FFC6C /* CeldaAlumnoController.swift */,
+			);
+			name = Viewcontrollers;
+			sourceTree = "<group>";
+		};
 		3DF78A1B232C37EC007FFC6C = {
 			isa = PBXGroup;
 			children = (
+				3D01220823317C5D00C442AE /* Alumno.swift */,
+				3D01220723317BA700C442AE /* Viewcontrollers */,
+				3D01220623317B5200C442AE /* Storyboard */,
+				3D01220523317B4900C442AE /* Models */,
+				3D01220423317B3900C442AE /* App */,
+				3D01220323317B3100C442AE /* Resources */,
 				3DF78A26232C37EC007FFC6C /* TableView */,
 				3DF78A3B232C37F1007FFC6C /* TableViewTests */,
 				3DF78A46232C37F1007FFC6C /* TableViewUITests */,
@@ -99,13 +147,8 @@
 		3DF78A26232C37EC007FFC6C /* TableView */ = {
 			isa = PBXGroup;
 			children = (
-				3DF78A27232C37EC007FFC6C /* AppDelegate.swift */,
-				3DF78A29232C37EC007FFC6C /* ViewController.swift */,
-				3DF78A2B232C37EC007FFC6C /* Main.storyboard */,
-				3DF78A2E232C37F1007FFC6C /* Assets.xcassets */,
 				3DF78A30232C37F1007FFC6C /* LaunchScreen.storyboard */,
 				3DF78A33232C37F1007FFC6C /* Info.plist */,
-				3DF78A55232C3F2E007FFC6C /* CeldaAlumnoController.swift */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -262,6 +305,7 @@
 				3DF78A2A232C37EC007FFC6C /* ViewController.swift in Sources */,
 				3DF78A28232C37EC007FFC6C /* AppDelegate.swift in Sources */,
 				3DF78A56232C3F2E007FFC6C /* CeldaAlumnoController.swift in Sources */,
+				3D01220923317C5D00C442AE /* Alumno.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
